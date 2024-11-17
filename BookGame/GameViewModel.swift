@@ -1,12 +1,6 @@
 import Foundation
 import SwiftUI
 
-public enum GameState {
-    case notStarted
-    case started
-    case ednded
-}
-
 class GameViewModel: ObservableObject {
     
     var model: GameModel? = nil
